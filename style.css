@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto+Condensed&family=Roboto:wght@100;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat&family=Roboto+Condensed&family=Roboto:wght@100;300;500;700&display=swap');
+
+body{
+    background-color: #DEE2E6;
+    display: flex;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;   
+
+}
+
+header{
+    background-color: #fefefe;
+        
+}
+
+#hero{
+    color: #152536;
+    font-family: 'Roboto Condensed';
+    background-color: #DEE2E6;
+    margin-left: 45px;
+    margin-top: 2rem;
+    
+}
+
+section h1, p{
+    margin-left: 25px;
+    
+}
+
+section h1{
+    font-size: 70px;
+}
+
+section p{
+    font-size: 20px;
+}
+
+#nova, #hoje{
+    color: #FEAE11 ;
+}
+
+u{
+    color:#FEAE11;
+}
+
+button{
+    background-color:  #152536;
+    border: none;
+    color: white;
+    width: 297px;
+    height: 50px ;
+    border-radius: 4px;
+    margin-left: 30px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    cursor: pointer;       
+}
+
+#card{
+    background-color: #fefefe;
+    width: 720px;
+    margin-top: 13rem;
+    border-radius: 12px;
+    position: absolute;
+    
+}
+
+.container{
+ margin-top: 98.8px;
+ margin-left: 35.7rem; 
+
+}
+
+.acabamento{
+  margin-left: 356px;
+  margin-top: -742px;
+  position: absolute;
+  z-index: -1;
+}
+
+.pontilhado{
+    margin-left: 900px;
+    margin-top: 270px;
+    position: absolute;
+    z-index: -1;
+}
+
+.resultado{
+ margin-left: -74rem;
+ margin-top: 50rem;
+ 
+}
+
+#resultado1{
+  width: 560px;
+  height: 480px;
+  position: absolute;
+   
+
+}
+  #resultado2{
+    width: 560px;
+    height: 480px;
+    position: absolute;
+    margin-left: 32rem;
+    margin-top: 18rem;
+    
+     
+  
+}
+
+#resultado3{
+    width: 560px;
+    height: 450px;
+    margin-top: 42rem;
+    z-index: -1;
+    
+   
+     
+  
+}
+
+#cardResultado{
+    color: #152536;
+    font-family: 'Roboto Condensed';
+    background-color: #fefefe;
+    width: 40rem;
+    margin-left: 27rem;
+    margin-top: -60rem;
+    position: absolute;
+    border-radius: 12px;   
+
+}
+
+#pontilhado2{
+    margin-top: 103rem;
+    margin-left: -26rem;
+    z-index: -1;
+   
+}
+
+#pontilhado3{
+    margin-left: -28rem;
+    margin-top: -5rem;
+}
+
+#acabamento-amarelo{
+    margin-left: 15.5rem;
+    margin-top: 52rem;
+}
+
+#background-amarelo{
+    margin-left: 15.5rem;
+    margin-top: 52.2rem;
+}
+
+
+/*Configurando a responsividade*/
+
+@media(max-width:768px){
+    
+    
+   
+    .container{
+        width: 100%;
+        margin-left:  -289px;
+        position:absolute;
+        z-index: -1;        
+       } 
+
+       #card{
+        margin-top: 290px;
+        margin-left: -32px;
+        width: 255px;
+        
+       }
+
+       #card h1{
+        font-size: 40px;
+       }
+     
+       #card p{
+        font-size: 18px;
+       }
+
+       button{
+        width: 135px;
+        margin-left: 63px;
+       }
+            
+      .acabamento{
+    
+        margin-left: -300px;
+        margin-top: -519px; 
+        } 
+        
+        #acabamento-amarelo{
+            width: 260px;
+            height: 160px;
+        }
+
+        .resultado{
+            margin-left: -150px;
+        }
+
+        #cardResultado{
+            margin-top: -1185px;
+            margin-left: 110px;
+            height: 65px;
+            width: 210px;
+        }
+
+        #cardResultado h1{
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        #resultado1{
+            width: 265px;
+            margin-left: 80px;
+            margin-top: -96px;
+        }
+
+        #resultado2{
+            width: 265px;
+            margin-left: 80px;
+        }
+   
+        #resultado3{
+            width: 265px;
+            margin-left: 85px;
+        }
+
+        #pontilhado2{
+            margin-left: -350px;
+            margin-top: 1460px;
+            
+        }
+
+        #pontilhado3{
+            margin-left: -355px;
+            margin-top: -22px;
+            
+        }
+
+        #background-amarelo{
+            margin-left: -309px;
+            margin-top: 1176px;
+            width: 19.5rem;
+            height: 19.9rem;
+        }
+
+        .pontilhado{
+            display: none;
+        }
+
+      
+
+      
+   
+}
