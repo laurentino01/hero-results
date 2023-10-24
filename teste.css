@@ -7,6 +7,7 @@
 
 .container:not(#header) {
   max-width: 1334px;
+
   padding-left: var(--paddingX);
   padding-right: var(--paddingX);
   margin: 0 auto;
@@ -28,15 +29,19 @@
 }
 
 #results {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
   display: grid;
   grid-template-areas:
     "first-model  ."
-    ".  second-model"
+    ". second-model"
     "third-model .  ";
 }
 
 .results__model-card {
   display: flex;
+  justify-items: center;
   position: relative;
   width: fit-content;
   height: fit-content;
@@ -45,6 +50,7 @@
 .results__model-card:nth-child(1) {
   grid-area: first-model;
   margin-bottom: -300px;
+  margin-left: 100px;
 }
 .results__model-card:nth-child(2) {
   grid-area: second-model;
@@ -53,6 +59,7 @@
 .results__model-card:nth-child(3) {
   grid-area: third-model;
   margin-top: -300px;
+  margin-left: 100px;
 }
 
 .results__model-card .background-img {
