@@ -78,7 +78,7 @@ body {
 
 .results__model-card .background-img {
   width: 100%;
-  height: 50%;
+  height: clamp(12.5rem, -1.7857rem + 29.7619vw, 25rem);
 }
 
 .results__model-card__first-doted-background,
