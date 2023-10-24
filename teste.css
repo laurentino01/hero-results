@@ -120,11 +120,13 @@ body {
   background-color: var(--light_primary);
   border-radius: 8px;
   border: 1px solid rgba(90, 90, 90, 0.274);
-  width: 500px;
-  padding: 20px 40px 20px 20px;
+  width: clamp(26.25rem, 20.5357rem + 11.9048vw, 31.25rem);
+  padding: 20px clamp(1.25rem, -0.1786rem + 2.9762vw, 2.5rem) 20px 20px;
   z-index: 3;
-  right: 250px;
-  top: 250px;
+  right: clamp(0.625rem, -12.9464rem + 28.2738vw, 12.5rem);
+  top: clamp(12.5rem, -12.5rem + 52.0833vw, 34.375rem);
+  /*  right: 200px;
+  top: 550px; */
 }
 .results__heading-card h1 {
   font-size: var(--title-size);
